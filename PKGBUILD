@@ -1,5 +1,5 @@
 pkgname=units
-pkgver=2.18
+pkgver=2.19
 pkgrel=1
 pkgdesc="Converts between different units"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=("GPL")
 options=('!makeflags')
 install=units.install
 source=("http://ftp.gnu.org/gnu/units/$pkgname-$pkgver.tar.gz")
-md5sums=('402395abfc0cc3bba6a76ee4c118bc72')
+md5sums=('f38468b31a55baa926b449dfdaacc8aa')
 
 build() {
   cd $srcdir/$pkgname-$pkgver
